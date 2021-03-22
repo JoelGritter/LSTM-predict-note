@@ -1,11 +1,11 @@
 import sys
 
-# note below middle C, considered as the base note (12 = 1 octave)
-adjustment = 12
+# middle C is the 40th note on an 88 key piano
+adjustment = 40
 
 # converts note from the [note][octave_adjustment] format to a number
 def convert_note(note):
-    adjustment = 12
+    global adjustment
 
     notes = {
         "C": 0, 
