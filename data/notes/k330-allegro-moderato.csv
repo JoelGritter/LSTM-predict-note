@@ -1,7 +1,7 @@
 G+,G+,F+,E+,E+,D+,C+,B,C+,B,C+,D+,E+,G,G+,G+,G+,F+,E+,E+,D+,C+,B,C+,B,C+,D+,E+,G
 A,C+,F+,A+,C++,G,C+,E+,G+,C++,G,G+,F+,E+,F+,D#+,E,A,C+,A,F+,C+,A+,F+,C++
 G,C+,G,E+,C+,G+,E+,C++,A+,G+,F+,E+,E+,D+,C+,B,C+,G,A,B,C+,D+,E+,F+,G+,A+,B+,C++,G+,G+,G+,A+,G+,F+,G+,F+,E+,F+,E+,D+,E+,D+
-C+,G,A,B,C+,D+,E+,F+,G+,A+,B=,C++,G+,G+,G+,A+,G+,F+,G+,F+,E+,F+,E+,D+,E+,D+,C+,D+,E+,F+,F+,G+,A+,G+,E+,C++,C++,D++,C++,B+,A+,A+,G+,F+,E+
+C+,G,A,B,C+,D+,E+,F+,G+,A+,B+,C++,G+,G+,G+,A+,G+,F+,G+,F+,E+,F+,E+,D+,E+,D+,C+,D+,E+,F+,F+,G+,A+,G+,E+,C++,C++,D++,C++,B+,A+,A+,G+,F+,E+
 G+,E+,D+,C#+,D+,C+,B,A,G,C#+,D+,C+,B,A,G,D#+,E+,E+,E+,E+,A,A+,G+,F#+,E+,D+,D++,D++,D++
 D++,D++,B+,D++,B+,G+,C#+,D+,C+,B,A,G,C#+,D+,E+,D+,C+,B,A,G,D#+,E+,E+,E+,E+,A+,B+,C++,B+,A+,G+,F#+,E+,D+,F#+,A+,G+,F#+,E+,D+,C+
 B,D+,C+,B,C+,D+,E+,F#+,G+,G+,G+,G+,F#+,E+,D+,C+,B,D+,C+,B,C+,D+
@@ -15,7 +15,7 @@ D+,E+,D+,C+,B,A,D+,C+,B,A,G,D,G,D,B,G,B,G,D+,A+,G+,F#+,E+,D+,D+,E+,D+,C+,B,A,A,D
 G+,G+,F+,E+,E+,D+,C+,B,C+,B,C+,D+,E+,G,G+,G+,G+,F+,E+,E+,D+,C+,B,C+,B,C+,D+,E+,G
 A,C+,F+,A+,C++,G,C+,E+,G+,C++,G,G+,F+,E+,F+,D#+,E,A,C+,A,F+,C+,A+,F+,C++
 G,C+,G,E+,C+,G+,E+,C++,A+,G+,F+,E+,E+,D+,C+,B,C+,G,A,B,C+,D+,E+,F+,G+,A+,B+,C++,G+,G+,G+,A+,G+,F+,G+,F+,E+,F+,E+,D+,E+,D+
-C+,G,A,B,C+,D+,E+,F+,G+,A+,B=,C++,G+,G+,G+,A+,G+,F+,G+,F+,E+,F+,E+,D+,E+,D+,C+,D+,E+,F+,F+,G+,A+,G+,E+,C++,C++,D++,C++,B+,A+,A+,G+,F+,E+
+C+,G,A,B,C+,D+,E+,F+,G+,A+,B+,C++,G+,G+,G+,A+,G+,F+,G+,F+,E+,F+,E+,D+,E+,D+,C+,D+,E+,F+,F+,G+,A+,G+,E+,C++,C++,D++,C++,B+,A+,A+,G+,F+,E+
 G+,E+,D+,C#+,D+,C+,B,A,G,C#+,D+,C+,B,A,G,D#+,E+,E+,E+,E+,A,A+,G+,F#+,E+,D+,D++,D++,D++
 D++,D++,B+,D++,B+,G+,C#+,D+,C+,B,A,G,C#+,D+,E+,D+,C+,B,A,G,D#+,E+,E+,E+,E+,A+,B+,C++,B+,A+,G+,F#+,E+,D+,F#+,A+,G+,F#+,E+,D+,C+
 B,D+,C+,B,C+,D+,E+,F#+,G+,G+,G+,G+,F#+,E+,D+,C+,B,D+,C+,B,C+,D+
@@ -40,7 +40,7 @@ C+,D+,E+,F+,F+,G+,A+,G+,E+,C++,C++,D++,C++,B+,A+,A+,G+,F+,E+,G+,E+,D+,C#+,D+,C+,
 A,A+,G+,F#+,E+,D+,D++,D++,D++,D++,D++,B+,D++,B+,G+,D+,E+,F+,F#+,G+,F+,E+<D+,C+,F#+,G+,A+,G+,F+,E+,D+,C+,G#+,A+,A+,A+,A+
 D++,E++,F++,E++,D++,C++,B+,A+,G+,B+,D++,C++,B+,A+,G+,F+,E+,G+,F+,E+,F+,G+,A+,B+,C++,C++,C++,C++,B+,A+,G+,F+
 E+,F+,E+,F+,G+,A+,B+,C++,C++,C++,C++,B+,A+,G+,F+,E+,C++,D++,E++,D++,C++,B+,A+,G+,F+,E+,D+,C+,B,A,G,F,E
-D,F,A,C#+,D+,F+,A+,A+,C+,C+,E=,D+,C+,G+,E+,C++,B+,A+,G+,F+,E+,D+,E+,G+,F#+,F+,E+,F+,G+,G#+,A+,B+,C++,B+,A+,G+,F+,E+
+D,F,A,C#+,D+,F+,A+,A+,C+,C+,E+,D+,C+,G+,E+,C++,B+,A+,G+,F+,E+,D+,E+,G+,F#+,F+,E+,F+,G+,G#+,A+,B+,C++,B+,A+,G+,F+,E+
 G+,E+,D+,G+,A+,B+,C++,B+,A+,G+,F+,E+,D+,E+,F+,F#+,G+,G#+,A+,A,F+,D+,C+,E+,D+,C+,C+,D+,E+,F+,E+,F+,G+,A+,G+,A+,B+
 C++,C++,C+,D+,E+,F+,E+,F+,G+,A+,G+,A+,B+,C++,C++,G+,B+,G+,C++,C++,G+,B+,G+,C++,C++,G+,B+,G+,C++,G+,C++,G+,D++,G+,D++,G+,E++,C++,G+,C++,E+,G+,C+,E+
 A,A+,G+,F+,E+,D+,C+,B,A,B,C+,C+,D+,E+,F+,E+,F+,G+,A+,G+,A+,B+,C++,C++,C+,D+,E+,F+,E+,F+,G+,A+,G+,A+,B+,C++,C++,G+,B+,G+,C++,C++,G+,B+,G+
@@ -61,7 +61,7 @@ C+,D+,E+,F+,F+,G+,A+,G+,E+,C++,C++,D++,C++,B+,A+,A+,G+,F+,E+,G+,E+,D+,C#+,D+,C+,
 A,A+,G+,F#+,E+,D+,D++,D++,D++,D++,D++,B+,D++,B+,G+,D+,E+,F+,F#+,G+,F+,E+<D+,C+,F#+,G+,A+,G+,F+,E+,D+,C+,G#+,A+,A+,A+,A+
 D++,E++,F++,E++,D++,C++,B+,A+,G+,B+,D++,C++,B+,A+,G+,F+,E+,G+,F+,E+,F+,G+,A+,B+,C++,C++,C++,C++,B+,A+,G+,F+
 E+,F+,E+,F+,G+,A+,B+,C++,C++,C++,C++,B+,A+,G+,F+,E+,C++,D++,E++,D++,C++,B+,A+,G+,F+,E+,D+,C+,B,A,G,F,E
-D,F,A,C#+,D+,F+,A+,A+,C+,C+,E=,D+,C+,G+,E+,C++,B+,A+,G+,F+,E+,D+,E+,G+,F#+,F+,E+,F+,G+,G#+,A+,B+,C++,B+,A+,G+,F+,E+
+D,F,A,C#+,D+,F+,A+,A+,C+,C+,E+,D+,C+,G+,E+,C++,B+,A+,G+,F+,E+,D+,E+,G+,F#+,F+,E+,F+,G+,G#+,A+,B+,C++,B+,A+,G+,F+,E+
 G+,E+,D+,G+,A+,B+,C++,B+,A+,G+,F+,E+,D+,E+,F+,F#+,G+,G#+,A+,A,F+,D+,C+,E+,D+,C+,C+,D+,E+,F+,E+,F+,G+,A+,G+,A+,B+
 C++,C++,C+,D+,E+,F+,E+,F+,G+,A+,G+,A+,B+,C++,C++,G+,B+,G+,C++,C++,G+,B+,G+,C++,C++,G+,B+,G+,C++,G+,C++,G+,D++,G+,D++,G+,E++,C++,G+,C++,E+,G+,C+,E+
 A,A+,G+,F+,E+,D+,C+,B,A,B,C+,C+,D+,E+,F+,E+,F+,G+,A+,G+,A+,B+,C++,C++,C+,D+,E+,F+,E+,F+,G+,A+,G+,A+,B+,C++,C++,G+,B+,G+,C++,C++,G+,B+,G+
