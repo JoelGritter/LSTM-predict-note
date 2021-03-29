@@ -40,6 +40,6 @@ Then once this data was received on the Keras side of things, it converts this n
 - Data was shuffled
 
 ## Credits
-Joel Gritter (@JoelGritter) and Kindeep Singh Kargil (@kindeep)
+Joel Gritter and Kindeep Singh Kargil
 
 COSC 4P80 - Brock University - March 29, 2021
