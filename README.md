@@ -16,6 +16,7 @@ LSTM model had an observed **72.31%** rate of getting the next note _exactly_ co
 - Raw sheet music: `./assets/`
 - Presentation deck: `./Presentation.pdf`
 - Jupyter Notebook: `./4P80_Seminar.ipynb`
+- Python file: `./4P80_Seminar.py`
 
 ## Data
 ### Data Gathering:
@@ -39,6 +40,6 @@ Then once this data was received on the Keras side of things, it converts this n
 - Data was shuffled
 
 ## Credits
-Joel Gritter and Kindeep Kargil Singh
+Joel Gritter (@JoelGritter) and Kindeep Singh Kargil (@kindeep)
 
 COSC 4P80 - Brock University - March 29, 2021
