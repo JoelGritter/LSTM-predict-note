@@ -1,6 +1,8 @@
 # LSTM-predict-note
 LSTM model to predict next note in a song
 
+Try it on Google Colab: https://colab.research.google.com/drive/1_LxG1cSVyaKEmU93ZLvF8SVfwt7X--Tj?usp=sharing
+
 ## Background Question
 Given the notes preceding, can we build an LSTM model to predict the next note in a song?
 
