@@ -13,6 +13,16 @@ COSC 4P80 - Seminar Demo
 March 29, 2021
 """
 
+# Music output
+!sudo apt-get install fluidsynth
+!pip install midi2audio
+!pip install mingus
+from mingus.containers import Note, NoteContainer, Track
+from mingus.midi.midi_file_out import write_NoteContainer, write_Track
+from midi2audio import FluidSynth
+
+fsy = FluidSynth()
+
 # imports for data manipulation
 import numpy as np
 import pandas as pd
@@ -79,7 +89,7 @@ print(", ".join(map(str, incorrect_indices)))
 
 # Predict song
 test_in = x_test[0]
-
+test_out = y_test[0]
 # initial - provide inital 20 notes
 # n - how many predicted notes to add (i.e. expand by this number)
 def make_big_song(initial, n):
@@ -90,5 +100,39 @@ def make_big_song(initial, n):
 
   return np.array(res)
 
-test = make_big_song(test_in, 20)
+test = make_big_song(test_in, 60)
 print(test.shape)
+
+# Expects n x 88
+def vector_to_midi(arr, filename="nice.midi"):
+  track = Track()
+  for note_arr in arr:
+    note_num = int(np.argmax(note_arr))
+    note = Note()
+    note.from_int(note_num - 3)
+    track.add_notes(note)
+  write_Track(filename, track)
+  print("Done!")
+  
+vector_to_midi(test)
+
+def predict_to_file(first_20_notes, expected, filename="nice"):
+  next = model.predict(np.array([first_20_notes]))
+  actual_next = np.array([expected])
+  next_file = filename + "_predicted_note"
+  actual_next_file = filename + "_actual_note"
+  orig_file = filename + "_first_20_notes"
+
+  vector_to_midi(next, next_file + ".midi")
+  vector_to_midi(actual_next, actual_next_file + ".midi")
+  vector_to_midi(first_20_notes, orig_file + ".midi")
+
+  # This conversion not seem to work
+  # fsy.midi_to_audio(next_file + ".midi", next_file + ".mp3")
+  # fsy.midi_to_audio(actual_next_file + ".midi", actual_next_file + ".mp3")
+  # fsy.midi_to_audio(orig_file + ".midi",  orig_file + ".mp3")
+
+predict_to_file(test_in, test_out)
+
+inci = incorrect_indices[0]
+predict_to_file(x_test[inci], y_test[inci], 'first_incorrect')
